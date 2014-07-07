@@ -1,0 +1,227 @@
+body {
+  background-image: url(http://desktopbackgroundshq.com/backgrounds/sea-beach-palm-beach-backgrounds-beach-palm-sea-25534.jpg);
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+#hello {
+  font-size: 2.2em;
+  color: #f0f96d;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 200;
+  color: #eaffad;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav h1 {
+  display: none;
+}
+
+ul {
+  margin: 0 auto 20px;
+}
+
+ul li {
+  margin: 0 10px;
+  padding: 2px 4px;
+  display: inline-block;
+  width: 100px;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  background: #3e5496;
+  border: 1px solid #f0f96d;
+  border-radius: 4px;
+}
+
+li a {
+  color: #f0f96d;
+  text-decoration: none;
+}
+
+li:hover {
+  background: #273663;
+  color: #fff;
+}
+
+li a:hover {
+  color:#fff;
+}
+
+article {
+  width: 75%;
+  float: right;
+  background: rgba(255,255,255, 0.5);
+  border-radius: 6px;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#search {
+  width: 25%;
+  float: left;
+}
+
+#search h1 {
+  display: none;
+}
+
+label {
+  color: #f0f96d;
+  padding-right: 10px;
+}
+
+input[type=text] {
+  border: none;
+  background: #dce2f7;
+  color: #002289;
+  width: 200px;
+  height: 28px;
+  padding: 2px 0;
+  text-indent: 4px;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type=button] {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 0.9em;
+  border: none;
+  height: 28px;
+  background: #fedf00;
+  color: #05237f;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear h1 {
+  display: none;
+}
+
+main {
+  margin-top: 20px;
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+main h1 {
+  color: #e8ae00;
+  text-shadow: 2px 2px 4px #000;
+}
+
+table {
+  margin:0px;padding:0px;
+  width:100%;
+  box-shadow: 10px 10px 5px #888888;
+  border:1px solid #000000;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width:100%;
+  height:100%;
+  margin:0px;padding:0px;
+}
+
+table thead {
+  height: 2em;
+  line-height: 2em;
+}
+
+table tr:nth-child(odd){ background-color:#aad4ff; }
+table tr:nth-child(even){ background-color:#ffffff; }
+
+table td{
+  vertical-align:middle;
+  border:1px solid #000000;
+  border-width:0px 1px 1px 0px;
+  text-align:left;
+  padding:7px;
+  font-size:10px;
+  font-family:Arial;
+  font-weight:normal;
+  color:#000000;
+}
+
+tr:last-child td{
+  border-width:0px 1px 0px 0px;
+}
+
+tr td:last-child{
+  border-width:0px 0px 1px 0px;
+}
+
+tr:first-child th{
+  background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+  background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");  background: -o-linear-gradient(top,#005fbf,003f7f);
+
+  background-color:#005fbf;
+  border:0px solid #000000;
+  text-align:center;
+  border-width:0px 0px 1px 1px;
+  font-size:14px;
+  font-family:Arial;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+tr td {
+  text-align: center;
+}
+
+caption {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+footer {
+  margin-top: 20px;
+  border: 2px dashed #989898;
+  border-radius: 6px;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgba(255,255,255,0.5);
+  color: #031a5e;
+}
+
+footer h1 {
+  font-size: 16px;
+  font-style: italic;
+}
+
+footer h1:after {
+  clear:left;
+  display: block;
+  font-size: 12px;
+  padding: 5px 20px;
+  content: "some copyright words stuff like 2014 blah blah blah"
+}

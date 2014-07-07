@@ -1,0 +1,25 @@
+@mixin button($bg-color, $round-size: false) {
+  background: $bg-color;
+  @if $round-size {
+    border-radius: $round-size;
+  }
+}
+
+.btn-a {
+  @include button(#ffff00);
+}
+
+.btn-b {
+  @include button(#f00ff0, 10px);
+}
+
+//---------------------------------------------
+
+.btn-a {
+  background: #ffff00;
+}
+
+.btn-b {
+  background: #f00ff0;
+  border-radius: 10px;
+}

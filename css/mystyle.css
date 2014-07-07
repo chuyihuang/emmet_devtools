@@ -1,0 +1,87 @@
+body {
+  background: #3B3D44;
+  background-image: url("../images/old_mathematics.png");
+}
+
+.w100p {
+  width: 100%;
+}
+
+.table1 {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.table1 td:nth-child(1) {
+  width: 50%;
+  text-align: right !important;
+}
+
+.table1 td:nth-child(2) {
+  width: 25%;
+}
+
+.table td:nth-child(3) {
+  width: 25%;
+}
+
+.table2 {
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.table2 td {
+  width: 30% !important;
+}
+
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+.reveal i{
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+.more_space {
+  letter-spacing: 0.2em;
+  height: 50px;
+}
+.more_space2 {
+  letter-spacing: 0.2em;
+  height: 40px;
+}
+
+.letter {
+  letter-spacing: 0.05em;
+}
+
+.letter_2 {
+  letter-spacing: 0.2em;
+}
+
+.higher {
+  height: 80px;
+}
+
+.img {
+  border: none !important;
+  background: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn {
+  background: #ffffff;
+  color:#000000;
+  border-radius: 5px;
+}
+
+.red {
+  color:red;
+}
+
+ul.lstn {
+  list-style-type: none;
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>用文字編輯器與瀏覽器來打造前端工程 - 台中前端社群</title>
+
+		<meta name="description" content="台中前端社群">
+		<meta name="author" content="HCY">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<link rel="stylesheet" href="css/mystyle.css">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<!-- slides -->
+				<section>
+					<h1><i class="fa fa-bullhorn"></i> 台中前端社群</h1>
+					<h4>Taichung Frontend Group</h4>
+					<p>
+						<strong><a href="#">TALK #5</a></strong>
+					</p>
+				</section>
+				<section>
+					<h2 style="letter-spacing:0.2em;">社團核心團隊與助教介紹</h2>
+					<ul style="list-style-type: none;">
+						<li style="letter-spacing:0.2em"><i class="fa fa-user"></i>Chuyi Huang</li>
+						<li style="letter-spacing:0.2em"><i class="fa fa-user"></i>Cash Wu</li>
+						<li style="letter-spacing:0.2em"><i class="fa fa-user"></i>Vincent Chen</li>
+						<li style="letter-spacing:0.2em"><i class="fa fa-user"></i>Flora Hsu</li>
+					</ul>
+				</section>
+				<section>
+					<h2>前往前端工程師の路</h2>
+					<h3>用文字編輯器與瀏覽器來打造前端工程</h3>
+				</section>
+				<section>
+					<h2>今日流程</h2>
+					<ul>
+						<li class="more_space">Why 文字編輯器 + Chrome? (10 mins)</li>
+						<li class="more_space">Sublimt Text 2/3 + Emmet 介紹與安裝 (15 mins)</li>
+						<li class="more_space">使用Emmet打造HTML與實作 (50 mins)</li>
+						<li class="more_space">Recess & Ice Break Time (30 mins)</li>
+						<li class="more_space">使用Emmet打造CSS與實作 (40 mins)</li>
+						<li class="more_space">Devtools介紹與Console操作 (30 mins)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Why 文字編輯器 + Chrome?</h2>
+					<ul>
+						<li class="more_space">以前的美工，現在的美術設計與前端工程師</li>
+						<li class="more_space fragment">使用DW的問題？</li>
+						<li class="more_space fragment">文字編輯器的優缺點</li>
+						<li class="more_space fragment">Chrome的開發者工具非常強大</li>
+					</ul>
+				</section>
+				<section>
+					<h2>前端工程師</h2>
+					<ul>
+						<li class="more_space">角色定位更清楚</li>
+						<li class="more_space">HTML/CSS/JS是有層次的</li>
+						<li class="more_space">GUI界面是前端工程師的天花板</li>
+						<li class="more_space">想成為前端工程師必須與程式碼為伍</li>
+						<li class="more_space">新工具與技術往往沒有GUI界面</li>
+						<li class="more_space">擺脫GUI的束縛，工具使用更得心應手</li>
+					</ul>
+				</section>
+				<section>
+					<h2>DreamWeaver V.S 文字編輯器</h2>
+					<ul>
+						<li class="more_space">DW很好很強大，拖拉很簡單，操作很自動</li>
+						<li class="more_space fragment">做為編輯器，DW是沒有問題的</li>
+						<li class="more_space fragment">文字編輯器，需要背很多語法與指令</li>
+						<li class="more_space fragment">透過編輯器全面掌握HTML/JS/CSS</li>
+						<li class="more_space fragment">只有經歷過才能"體會"語法的用途</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Why Emmet</h2>
+					<ul>
+						<li class="more_space">適合敏捷開發</li>
+						<li class="more_space">語法簡單，能立即上手</li>
+						<li class="more_space">同時支援HTML與CSS</li>
+						<li class="more_space">支援各大編輯器</li>
+						<li class="more_space">強化CSS選擇器的觀念</li>
+					</ul>
+				</section>
+				<section>
+					<h2>安裝Sublime Text與Emmet (10 mins)</h2>
+					<ul>
+						<li class="more_space">下載Sublime Text (2是穩定版)</li>
+						<li class="more_space">下載網址: <a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a></li>
+						<li class="more_space">安裝Package Manager 參考<a href="http://docs.sublimetext.tw/package-and-plugin/">這裡</a></li>
+						<li class="more_space">透過package install安裝Emmet套件</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Emmet DEMO(HTML)</h2>
+					<ul>
+						<li class="more_space">介紹符號，參考Emmet Doc</li>
+						<li class="more_space fragment">建立簡單網站</li>
+						<li class="more_space fragment">header>h1.titile{Emmet的快速實驗}+h2{基本的語法介紹}^nav>ul#menu>li.more.than.one.klass{方法$$}*5^section>(h1{搜尋}+form[action=/serach]>input:t+input:b[value="搜尋"])^section>(h1{主要內容}+table>(thead>tr>th{欄位$$}*5)(tbody>tr*4>td{資料$$}*5))^footer>section>h1{I am Footer}+a[href=http://docs.emmet.io/cheat-sheet/]{emmet的說明文件}</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Emmet語法簡介</h2>
+					<ul>
+						<li class="more_space">標籤</li>
+						<li class="more_space">ID與Class</li>
+						<li class="more_space">屬性</li>
+						<li class="more_space">內容</li>
+						<li class="more_space">下一層/回上層/群組</li>
+						<li class="more_space">重複與自動數字填充</li>
+					</ul>
+				</section>
+				<section>
+					<h2>任務:用Emmet完成以下頁面</h2>
+					<h3>請依照圖片說明</h3>
+					<img src="./images/emmet_html_exercise.png" alt="">
+				</section>
+				<section>
+					<h2>用Emmet實作HTML部份</h2>
+					<h3>請開始動作做(50 mins)。</h3>
+					<p>參考: <br> http://frontend.inow.tw/workshop/emmet_devtools/html_exercise.html </p>
+				</section>
+				<section>
+					<h2>休息時間 (15 mins)</h2>
+				</section>
+				<section>
+					<h2>自我介紹 (15 mins)</h2>
+					<ul>
+						<li class="more_space">我的名字是...</li>
+						<li class="more_space">我的工作是...</li>
+						<li class="more_space">為何想學習網頁前端...</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Emmet語法簡介(CSS)</h2>
+					<ul>
+						<li class="more_space">記住css屬性的簡寫: bdrs, bxz, fr/fl</li>
+						<li class="more_space">數字與單位</li>
+						<li class="more_space">css3的部份多使用</li>
+						<li class="more_space">隨時參考Emmet的cheatsheet</li>
+						<li class="more_space">練習再練習</li>
+					</ul>
+				</section>
+				<section>
+					<h2>實作CSS部份 - 範例</h2>
+					<img src="./images/css_example.png" alt="">
+				</section>
+				<section>
+					<h2>實作CSS部份</h2>
+					<ul>
+						<li>加入link:css標籤</li>
+						<li>不改變html部份，參考cheatsheet做出類似效果(或自己的風格)</li>
+						<li><a href="http://frontend.inow.tw/workshop/emmet_devtools/css_exercise.html">http://frontend.inow.tw/workshop/emmet_devtools/css_exercise.html</a></li>
+						<li>時間 30mins</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Chrome DevTools</h2>
+					<ul>
+						<li class="more_space">選取與編輯HTML區塊與內容</li>
+						<li class="more_space">改變CSS的樣式與查看Box Model</li>
+						<li class="more_space">觀看網路連線與資源</li>
+						<li class="more_space">使用主控臺(console)管理javascript</li>
+						<li class="more_space">可以安裝外掛強化DevTools</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Chrome DevTools操作</h2>
+					<ul>
+						<li class="more_space">Windows系統: F12 / Ctrl + Shift + I</li>
+						<li class="more_space">Mac系統: Cmd + Opt + I</li>
+					</ul>
+				</section>
+				<section>
+					<h2>使用Devtools(DEMO)</h2>
+					<ul>
+						<li class="more_space">HTML編輯 - 改掉title</li>
+						<li class="more_space">CSS編輯 - 改變Header>H1顏色</li>
+						<li class="more_space">Console操作 - alert</li>
+					</ul>
+				</section>
+				<section>
+					<h2>練習使用Devtools (20 mins)</h2>
+					<ul>
+						<li class="more_sapce">修改所有H1的內容</li>
+						<li class="more_sapce">移除table thead標籤</li>
+						<li class="more_sapce">將背景改成淺藍色</li>
+						<li class="more_sapce">在console裡用alert的方式顯示網址列的內容</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+	</body>
+</html>
